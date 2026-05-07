@@ -7,6 +7,8 @@ if Fruta_favorita not in frutas:
     print ("Sua fruta favorita não esta na lista!")
     print("Adicionando...")
     frutas.append(Fruta_favorita)
+
+    #exit é para parar encerrar o programa, ou seja, não executa mais nada depois disso
     exit()
 
 #PARA cada posiçao (indice) e fruta NA lista numerada

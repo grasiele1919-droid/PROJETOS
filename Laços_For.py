@@ -13,20 +13,20 @@ for indice, produto in enumerate (Produtos):
     subtotal = quantidade * precos
     subtotais.append(subtotal)
 
-    print(f""" Sua compra foi de {quantidade} de {produto}, valor unitario de R$ {precos}.
-          O subtotal foi de R$ {subtotal}.""")
+    #print(f""" Sua compra foi de {quantidade} de {produto}, valor unitario de R$ {precos}.O subtotal foi de R$ {subtotal}.""")
     
-#   mesagem = f"""
-#   ________________________________
-#   Produto: {produto}
-#   Quantidade: {quantidade}
-#   Valor unitário: {precos}
-#   Sobtotal:{subtotal}
-#   ________________________________
-#   """
-#   print = (mesnagem)
+    mensagem = f"""
+    ________________________________
+    Produto: {produto}
+    Quantidade: {quantidade}
+    Valor unitário: {precos}
+    Sobtotal:{subtotal}
+    ________________________________
+    """
+    print (mensagem)
 
-total = sum(subtotais)
+
+total = sum (subtotais)
 
 print (f"Seu pedido total foi de R$ {total}.")
 

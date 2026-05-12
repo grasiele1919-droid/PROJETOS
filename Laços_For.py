@@ -19,8 +19,8 @@ for indice, produto in enumerate (Produtos):
     ________________________________
     Produto: {produto}
     Quantidade: {quantidade}
-    Valor unitário: {precos}
-    Sobtotal:{subtotal}
+    Valor unitário: R${precos}
+    Sobtotal:R${subtotal}
     ________________________________
     """
     print (mensagem)
@@ -28,7 +28,7 @@ for indice, produto in enumerate (Produtos):
 
 total = sum (subtotais)
 
-print (f"Seu pedido total foi de R$ {total}.")
+print (f"Seu pedido total foi de R${total}.")
 
 
 

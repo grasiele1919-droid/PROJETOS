@@ -12,18 +12,15 @@ if Fruta_favorita not in Frutas:
     exit()
 
 #PARA cada posiçao (indice) e fruta NA lista numerada
-for posicao, Frutas in enumerate(Frutas):
+for posicao, Fruta in enumerate(Frutas):
     # faça isso:
     #SE a fruta dessa iteração é igual a fruta favorida
-
     if Frutas == Fruta_favorita:
-    # Salva numa nova variavel a posição dessa iteração
-    
-posicao_fruta_favorita = posicao
+        # Salva numa nova variavel a posição dessa iteração
+        posicao_fruta_favorita = posicao
 
-    #Quebra o for (faz ele parar)
-    break
+        #Quebra o for (faz ele parar)
+        break
 
 #saida do algoritmo(print)
-
 print(f"Minha fruta favorita está na posição indice {posicao_fruta_favorita}")

@@ -10,9 +10,12 @@ Menu:
     opcao = input ("escolha uma opção: ")
 
     if opcao == "1":
-    elif opcao =="2"
-    elif opcao =="3"
-    print ("Saindo do sistema...")
-    break
-else: 
-    print
+
+    elif opcao == "2":
+
+    elif opcao == "3":
+
+        print ("Saindo do sistema...")
+        break
+    else: 
+        print (*Opção invalida. tente novamente*)

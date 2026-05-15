@@ -1,7 +1,9 @@
 contador = 0
 #(variavel) contador recebe 0
 numero = -1
-#numero recebe -1
+# numero recebe -1
+numeros = []
+#numero recebe lista vazia
 
 while numero != 0:
 #enquanto o usuário não digitar 0
@@ -12,9 +14,11 @@ while numero != 0:
     if numero != 0:
     #se numero for diferente de 0
         print ("Tente novamente...")
+        numeros.append(numero)
+        #NUMERO é adicionado em NÚMEROS
 
         contador += 1
         #CONTADOR recebe CONTADOR +1
 
-print(f"Voce digitou: {numero}. Acertou na {contador} tentativa")
+print(f"Voce digitou: {numero}. Acertou na {contador} tentativa. Foram digitados os seguintes números: {numeros}")
 #exibe a mensagem de saida, ""

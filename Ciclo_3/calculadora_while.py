@@ -11,17 +11,19 @@ while True:
     ====Calculadora====
     1 - Soma (+)
     2 - Subtração (-)
-    3 - Multiplicação (*)
+    3 - Multiplicação (x)
     4 - Divisão (/)
     0 - Sair
     """
     print (mensagem)
 
     opcao = input("Escolha a opção de operação: ")
-    if opcao == "0": break
-    if opcao not in ["1","2","3","4"]:
+    if opcao == "0": 
+        break #querbra o codigo PARA
+
+    if opcao not in ["1","2","3","4"]:  #not in - não deixa o usuario digitar texto diferente do que definido
         print ("Opção inválida! Tente novamente...")
-        continue
+        continue    #continue - Segue o fluxo
 
     N1 = int(input("Digite o primeiro numero: "))
     N2 = int(input("Digite o segundo numero: "))
@@ -34,7 +36,7 @@ while True:
         print(f"{N1} - {N2} = {calculo}")
     elif opcao == "3":
         calculo = int(N1 * N2)
-        print(f"{N1} * {N2} = {calculo}")
+        print(f"{N1} x {N2} = {calculo}")
     elif opcao == "4":
-        if N2 == 0: print( "Não é possivel dividir")
-        else: print(f"{N1} / {N2} = {N1 / N2}")
+        if N2 == 0: print("Não é possivel dividir")
+        else: print(f"{N1} / {N2} = {round(N1 / N2,2)}")

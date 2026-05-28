@@ -23,7 +23,7 @@ precos_servicos = (150.00, 249.90, 599.99)
 compra = input("Você deseja ver nossos produtos ou servicos? ")
 if compra == "produtos":
     for posicao_produto, produto in enumerate(produtos):
-        preco_produto = precos_produtos[posicao_produto]
+        preco_produto = round(precos_produtos[posicao_produto],2)
 
         mesagem1 = f"""
 CODIGO do produto: {posicao_produto}
@@ -61,7 +61,7 @@ ________________________
 
 elif compra == "servicos":
     for posicao_servico,servico in enumerate(servicos):
-        preco_servico = precos_servicos[posicao_servico]
+        preco_servico = round(precos_servicos[posicao_servico],2)
 
         mesagem_2 = f"""
 CODIGO servico: {posicao_servico}

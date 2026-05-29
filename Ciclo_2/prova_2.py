@@ -1,18 +1,20 @@
-# loja automativa venda de produtos e serviços 
-# usario quer produtos ou serviços?
-# lista de serviços e lista de produtos com preços
-# exibe final usuario escolhe o quer comprar.
+"""
+loja automativa venda de produtos e serviços 
+usario quer produtos ou serviços?
+lista de serviços e lista de produtos com preços
+exibe final usuario escolhe o quer comprar.
+"""
 
-
-#lista de produtos
-#lista de preço produtos
-#lista serviços
-#lista de serviços
-#recebe do usuario produto ou serviço
-#exibe a lista de venda
-#recebe do usuario item de compr
-#desconto de 10% pedidos acima R$300
-#exibe para usuario o item de compra com preço
+"""
+lista de produtos
+lista de preço produtos
+lista serviços
+lista de serviços
+recebe do usuario produto ou serviço
+exibe a lista de venda
+recebe do usuario item de compr
+desconto de 10% pedidos acima R$300
+exibe para usuario o item de compra com preço"""
 
 produtos = ["óleo 5W40", "Carburador", "pneu ARO 20"]
 precos_produtos = (75.00, 500.00, 799.90)

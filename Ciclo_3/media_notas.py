@@ -1,16 +1,24 @@
 import math
 
-def calcular_media(notas:list)-> float:
-    media = sum(notas) / len(notas)
-    return media
+def calcular_media(notas:list) -> float:
+    media = sum(notas) / len(notas) # SUM vai somar as notas e LEN vai contar o numero de notas
+    return math.ceil (media)
 
 contador = 1
 notas = []
+
 while True:
-    nota = float(input(f"Digite a nota{contador} ou 'sair' para sair: "))
+    nota = float(input(f"Digite a nota {contador} ou -1 para Sair: "))
     notas.append(notas)
+
     print(" Nota foi registrada!")
-    if nota == "sair":
+    if nota == "-1":
         break
 
-calcular_media
+media = calcular_media (notas )
+print(f" A media foi de, {media}.")
+
+if media >= 7:
+    print("Aprovado")
+else:
+    print("Reprovado")

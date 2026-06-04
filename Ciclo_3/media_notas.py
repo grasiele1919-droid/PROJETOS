@@ -2,7 +2,7 @@ import math
 
 def calcular_media(notas:list) -> float:
     media = sum(notas) / len(notas) # SUM vai somar as notas e LEN vai contar o numero de notas
-    return math.ceil (media)
+    return math.ceil (media) # RETURN - devolve o resultado
 
 contador = 1
 notas = []

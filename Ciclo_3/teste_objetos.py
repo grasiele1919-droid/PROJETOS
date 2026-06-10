@@ -11,4 +11,3 @@ produto_1 = Produtos(nome="arroz", preco=7.0, qnt=10) #("arroz", 7.0, 10)
 produto_2 = Produtos("feijão", 4.0, 8)
 
 produto_1.exibir()
-

@@ -36,7 +36,7 @@ while True:
     if opcao == "0":
         print("Saindo...")
         break
-    elif opcao == "1": saldo = deposito(saldo) #return no saldo ela vai atualizar do locar para a varial global
+    elif opcao == "1": saldo = deposito(saldo) #return no saldo ela vai atualizar do local para a variavel global
     elif opcao == "2": saldo = sacar (saldo)
     elif opcao == "3": mostrar_saldo(saldo)
     else:
